@@ -1,0 +1,211 @@
+
+.blue-independent-contractor-title h2 {
+    text-align: center;
+    text-transform: UPPERCASE;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.blue-title h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+}
+p.blue-forex-fund {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-bottom: 15px;
+}
+p.blue-first-part {
+    text-align: center;
+    text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.blue-independent-between {
+    text-align: center;
+}
+p.blue-second-part {
+    text-align: center;
+	margin-bottom: 15px;
+}
+p.blue-and {
+    font-weight: bold;
+	margin-bottom: 15px;
+}
+.blue-independent-background ul {
+    list-style: upper-latin;
+}
+.blue-independent-list p {
+    margin-left: -15px;
+}
+.blue-independent-list li ol {
+    list-style: upper-roman;
+}
+form.blue-independent-contractor-form h4 {
+    font-size: 18px;
+}
+form.blue-independent-contractor-form {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 23px;
+}
+form.blue-independent-contractor-form h2 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 25px;
+    font-weight: bold;	
+    margin-bottom: 50px;
+}
+.blue-inde-names {
+    display: flex;
+    justify-content: space-between;
+}
+.blue-independent-contractor h4 {
+        padding-top: 50px;
+}
+.blue-independent-Company.blue-title h4 {
+    padding-top: 30px;
+}
+input.input-inde-contrac {
+    background-color: #EAEAEA;
+    border-color: #EAEAEA;
+    border-radius: 4px 4px 4px 4px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 11px;
+}
+.blue-inde-phone-num {
+    margin-bottom: 10px;
+}
+.blue-inde-email-phone {
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+}
+.blue-independent-Company.blue-title label, .blue-inde-legal-name label {
+    width: 100%;
+    display: inline-block;
+}
+ol.blue-independent-list li ol li {
+    margin: 0px;
+}
+ol.blue-independent-list li {
+    margin: 12px 0px;
+}
+
+.upload-here-btn {
+    text-align: center;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.from-submit {
+    background-color: #0D0F5B !important;
+    color: #ffffff !important;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 18px 60px 18px 60px !important;
+    margin-right: 10px;
+}
+.upload-btn {
+    background-color: #0D0F5B !important;
+    color: #ffffff !important;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 18px 15px 18px 15px !important;
+    margin-right: 10px;
+    min-width: 225px;
+}
+.upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 225px;
+    height: 60px;
+    right: 0;
+    margin: 0 auto;
+}
+span.upload-file {
+    width: 100%;
+    display: inline-block;
+    line-height: 1.8;
+}
+.blue-independent-contractor-form label {
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+li::marker {
+    font-weight: bold;
+}
+input.blue-contractors.input-inde-contrac {
+    margin-bottom: 15px;
+}
+.success-msg {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.8;
+    color: #108309;
+    margin-bottom: 10px;
+}
+.error-msg {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.8;
+    color: #cc1818;
+    margin-bottom: 10px;
+}
+span.upload-file i.fa.fa-check {
+    color: green;
+}
+.sumbit-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 767px){
+	.blue-inde-names{
+		flex-direction: column;
+        align-content: center;
+        align-items: center;
+	}
+	.blue-independent-contractor-form label {
+		font-size: 12px;
+	}
+	form.blue-independent-contractor-form ol, form.blue-independent-contractor-form ul {
+        margin-left: 18px;
+    }
+    .blue-inde-email-phone {
+        margin-top: 15px;
+        align-items: center;
+    }
+    form.blue-independent-contractor-form h2 {
+        margin-bottom: 30px;
+    }
+    .blue-independent-contractor h4 {
+        padding-top: 30px;
+    }
+    .blue-independent-Company.blue-title h4 {
+        padding-top: 20px;
+    }
+    input.phone-number, input.email-address, input.legal-name, input.company-filed {
+        width: 100%;
+    }
+    .blue-independent-contractor-form p, .blue-independent-contractor-form li{
+        line-height: 1.8;
+    }
+    .from-submit {
+        padding: 15px 40px 15px 40px !important;
+    }
+}

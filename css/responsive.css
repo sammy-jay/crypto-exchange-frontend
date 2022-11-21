@@ -1,0 +1,1914 @@
+@media (min-width:1200px) {
+    .custom_container {
+        max-width: 1336px;
+        margin: 0 auto;
+    }
+
+}
+
+@media(min-width:1440px) {
+
+    .refundable_section::before {
+        top: 46px;
+    }
+
+    .refundable_section::after {
+        bottom: 6px;
+        border-width: 81px 681px 73px 0;
+    }
+
+    .mission_sec {
+        padding: 190px 0 150px;
+    }
+
+    .mission_sec::after {
+        border-width: 77px 607px 73px 0;
+    }
+}
+
+
+
+
+@media(min-width:1600px) {
+    .banner {
+        padding: 154px 0 420px 0;
+    }
+
+    .refundable_section::before {
+        border-width: 57.5px 0 57.5px 410px;
+        top: 45px;
+    }
+
+    .refundable_section::after {
+        bottom: 12px;
+        border-width: 81px 690px 73px 0;
+    }
+
+    .mission_sec {
+        padding: 214px 0 141px;
+    }
+
+    .mssn_shape {
+        top: 8px;
+    }
+
+    .mission_sec::after {
+        border-width: 77px 616px 82px 0;
+    }
+}
+
+@media(min-width:1920px) {
+
+    .refundable_section::before {
+        top: 52px;
+    }
+
+    .refundable_section::after {
+        border-width: 77px 823px 73px 0;
+        bottom: 14px;
+    }
+
+    .mssn_shape {
+        top: 14px;
+    }
+
+    .mission_sec::after {
+        border-width: 77px 822px 73px 0;
+    }
+}
+
+@media(max-width:1280px) {
+    .refundable_section::before {
+        border-width: 57.5px 0 57.5px 359px;
+    }
+
+    .refundable_section::after {
+        border-width: 77px 679px 73px 0;
+    }
+
+    .mission_sec {
+        padding: 222px 0 176px;
+    }
+
+    .mission_sec::after {
+        border-width: 77px 598px 73px 0;
+    }
+
+    .frth_cntnt a {
+        margin-top: 50px;
+    }
+
+    .thrd_cntnt a {
+        margin-top: 50px;
+    }
+
+    .fifth_cntnt a {
+        margin-top: 25px;
+    }
+
+    .sec_contnt a {
+        margin-top: 50px;
+    }
+
+    .first_cntnt a {
+        margin-top: 50px;
+    }
+
+    .mssn_shape {
+        top: 0px;
+    }
+}
+
+@media(max-width:1200px) {
+    .refundable_section::after {
+        border-width: 77px 633px 73px 0;
+    }
+
+    .refundable_section::before {
+        border-width: 57.5px 0 57.5px 340px;
+    }
+
+    .banner {
+        padding: 154px 0 130px 0;
+    }
+
+    .as_seen_on {
+        padding-top: 0px;
+    }
+
+    .mission_sec {
+        padding: 225px 0 118px;
+    }
+
+    .mssn_shape {
+        top: -8px;
+    }
+
+    .mission_sec::after {
+        border-width: 77px 578px 66px 0;
+    }
+
+    .step_evaltuation_cntnt a {
+        padding: 15px 30px;
+    }
+
+    .sec_contnt a {
+        margin-top: 45px;
+    }
+
+    .first_cntnt a {
+        margin-top: 45px;
+    }
+
+    .thrd_cntnt a {
+        margin-top: 30px;
+    }
+
+    .frth_cntnt a {
+        margin-top: 30px;
+    }
+
+    .fifth_cntnt a {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .get_in_touch_frm form input[type="submit"] {
+        padding: 15px 30px;
+    }
+
+    .rfundable_section::before {
+        border-width: 57.5px 0 69.5px 340px !important;
+        top: 40px;
+    }
+
+    .refundable_section::after {
+        border-width: 77px 530px 73px 0;
+        bottom: 9px;
+    }
+
+    .trade_with_us_cntnt p {
+        line-height: 24px;
+    }
+
+    .trade_with_us_cntnt h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .refundable_section .solid_btn {
+        max-width: 290px;
+        margin-top: 35px;
+    }
+
+    /* .banner::after {
+        bottom: 10px;
+        background-size: 43%;
+    } */
+    .trading_grp {
+        padding: 25px 0 15px;
+    }
+
+    .trading_grp_li {
+        margin-top: 40px;
+    }
+
+    .banner_caption h1 {
+        font-size: 70px;
+    }
+
+    .step_evaltuation_cntnt span {
+        font-size: 22px;
+    }
+
+    .step_evaltuation_cntnt a {
+        padding: 10px 17px;
+        font-size: 14px;
+    }
+
+    .login_link a {
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+
+    .hdr_menu ul li {
+        margin: 0 11px;
+    }
+
+    .hdr_menu ul li a {
+        font-size: 12px;
+    }
+
+    .banner {
+        padding: 110px 0 60px 0;
+    }
+
+    .ftr_last_part p {
+        font-size: 13px;
+    }
+
+    .get_in_touch {
+        padding: 115px 0 210px;
+    }
+
+    .trade_with_us_cntnr {
+        margin-top: 60px;
+    }
+
+    .trade_wit_us {
+        padding: 200px 0px 170px;
+    }
+
+    .step_evaltuation_cntnt {
+        padding: 35px 10px 34px;
+    }
+
+    .ftr_last_part .ftr_para {
+        align-items: center;
+    }
+
+    .terms_link li a {
+        font-size: 13px;
+    }
+
+    /* .bnnr_shape {
+        bottom:-126px;
+    } */
+    .trading_icontxt p {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+
+    .as_seen_container .img_cntnr {
+        margin-top: 25px;
+    }
+
+    .step_evaluation {
+        padding: 43px 0 70px;
+    }
+
+    .trading_grp_btn .solid_btn {
+        margin: 40px auto 0;
+    }
+
+    .thrd_cntnt a {
+        margin-top: 45px;
+    }
+
+    .frth_cntnt a {
+        margin-top: 45px;
+    }
+
+    .fifth_cntnt a {
+        margin-top: 45px;
+    }
+
+    .step_evaltuation_cntnt p {
+        font-size: 13px;
+    }
+
+    /* contact-page */
+    /* 25-07-22 */
+    .contact-banner {
+        padding: 100px 0 140px;
+    }
+
+    /* faq-page */
+    .faq-banner {
+        padding: 100px 0 140px;
+    }
+
+    /*about-page */
+    .about_bnnr {
+        padding: 80px 0 60px 0;
+    }
+
+    .trading_cntent p {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .start_trading {
+        padding: 45px 0;
+    }
+
+    .mission_sec {
+        padding: 250px 0 118px;
+    }
+
+    .mssn_shape {
+        top: -6px;
+        transform: rotate(-1deg);
+        left: -3px;
+    }
+
+    .mission_sec::after {
+        border-width: 77px 540px 73px 0;
+    }
+
+    .about_us {
+        padding: 45px 0 160px;
+    }
+}
+
+@media (max-width:1024px) {
+    .refundable_section::before {
+        border-width: 57.5px 0 60.5px 240px;
+    }
+
+    .logo a img {
+        width: 86%;
+    }
+
+    /* .hdr_menu{
+        flex: 0 0 81%;
+    } */
+    .hdr_menu ul li a {
+        font-size: 12px;
+    }
+
+    .hdr_menu ul li {
+        margin: 0 10px;
+    }
+
+    .login_link a {
+        padding: 15px 20px;
+    }
+
+    .refundable_section::before {
+        top: 34px;
+    }
+
+    /* .banner::after {
+        bottom: 18px;
+    } */
+    .refundable_section::after {
+        bottom: 5px;
+        border-width: 77px 490px 73px 0 !important;
+    }
+
+    /* .bnnr_shape {
+    bottom: -135px;
+} */
+    .mssn_shape {
+        top: -24px;
+    }
+
+    .mission_sec {
+        padding: 140px 0 118px;
+    }
+
+    .mission_sec::after {
+        border-width: 46px 366px 72px 0;
+    }
+}
+
+@media (max-width:992px) {
+
+    /* .bnnr_shape {
+        bottom: -137px;
+    } */
+    .refundable_section::after {
+        bottom: 5px;
+        border-width: 77px 387px 85px 0 !important;
+    }
+
+    .mssn_shape {
+        top: -29px;
+        width: 65%;
+    }
+
+    .mission_sec {
+        padding: 170px 0 70px;
+    }
+
+    .mission_sec::after {
+        border-width: 50px 400px 62px 0;
+    }
+
+    .mssn_para {
+        padding-top: 35px;
+    }
+}
+
+@media (max-width: 991px) {
+    .get_in_touch_frm form input[type="email"] {
+        padding: 10px;
+    }
+
+    .hdr_menu ul {
+        flex-direction: column;
+    }
+
+    .hdr_menu ul li:first-child {
+        margin-left: 16px;
+    }
+
+    /* mobile menu start */
+    .menu_sec {
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        /* background: linear-gradient(95deg, #03dc8d, #05d591, #09cc96, #0bc69a, #10b7a3) border-box;
+        -webkit-mask: linear-gradient(transparent 0 0) padding-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor; */
+        background-color: #fff;
+        overflow-x: hidden;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        padding-top: 50px;
+        box-shadow: 15px 0px 20px 0px #000;
+        flex-direction: column;
+    }
+
+    .mob_menu {
+        display: block;
+    }
+
+    .menu_trigger {
+        color: #000;
+        display: block;
+        font-size: 26px;
+    }
+
+    .close_menu {
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        font-size: 33px;
+        color: #000;
+        display: block;
+    }
+
+    .login_btn {
+        display: none;
+    }
+
+    .login_icon {
+        display: block;
+        margin-right: 5px;
+    }
+
+    .icon a {
+        color: #11b5a4;
+        background: none;
+        font-size: 20px;
+        padding: 0;
+        margin-left: 15px;
+    }
+
+    .trade_btn {
+        display: none;
+    }
+
+    .trading_icon {
+        display: block;
+    }
+
+    .login_link {
+        margin-left: 46%;
+        display: flex;
+    }
+
+    .hdr_menu ul li a {
+        font-size: 14px;
+    }
+
+    .hdr_menu ul li {
+        margin: 0 16px;
+        padding: 5px 0;
+    }
+
+    .logo a img {
+        width: 100%;
+    }
+
+    .banner {
+        padding: 80px 0 50px 0;
+    }
+
+    .banner_caption h1 {
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 15px;
+    }
+
+    .banner_caption p {
+        margin-bottom: 30px;
+    }
+
+    .bnr_link .solid_btn {
+        max-width: 220px;
+    }
+
+    .banner::after {
+        bottom: 0px;
+    }
+
+    .trading_grp_hdng h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .step_evaluation_contnr {
+        flex-wrap: wrap;
+    }
+
+    .step_evaltuation_cntnt {
+        margin: 10px 5.5px;
+    }
+
+    .step_evaluation {
+        padding: 30px 0 25px;
+    }
+
+    .refundable_section {
+        padding: 180px 0 130px;
+    }
+
+    .refundable_section::before {
+        top: 38px;
+    }
+
+    .refundable_section::after {
+        bottom: -3px;
+    }
+
+    .trade_with_us_cntnr {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .trade_with_us_cntnt {
+        min-height: 570px;
+        padding: 4px;
+    }
+
+    .trade_with_us_cntnt h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .trade_wit_us {
+        padding: 210px 0px 170px;
+    }
+
+    .get_in_touch {
+        padding: 140px 0 180px;
+    }
+
+    .ftr_sec {
+        padding: 155px 0 110px;
+    }
+
+    .ftr_description::after {
+        right: -65px;
+    }
+
+    .step_evaltuation_cntnt ul li {
+        line-height: 20px;
+    }
+
+    .as_seen_container .img_cntnr {
+        margin-top: 25px;
+    }
+
+    .funded_forex_content {
+        margin-top: 40px;
+    }
+
+    .trade_with_us_cntnt.down {
+        min-height: 572px;
+        margin-top: 0;
+    }
+
+    /* .trade_wit_us .slick-arrow{
+        font-size: 0;
+        border: 0;
+        margin-top: 15px;
+    }
+    .trade_wit_us .slick-arrow::after{
+        position:absolute;
+        content:"\f104";
+        font-family:"Fontawesome";
+        top:unset;
+        bottom:0;
+        left:50%;
+        transform:translateX(-50%);
+        font-size: 50px;
+    } */
+    /* .trade_wit_us .slick-next::after{
+        content:"\f105";
+        left: 56%;
+    } */
+    .ftr_last_part .ftr_para {
+        align-items: center;
+    }
+
+    .icon a:hover {
+        background: none;
+        color: #000;
+    }
+
+    .login_sec {
+        display: inline-flex;
+    }
+
+    .trade_sec {
+        display: inline-flex;
+    }
+
+    .login_sec p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 5px;
+    }
+
+    .trade_sec p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 5px;
+    }
+
+    .trade_with_us_cntnr .slick-dots {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .trade_with_us_cntnr .slick-dots li {
+        font-size: 0;
+        border: 0;
+        background: none;
+        width: 15px;
+        height: 15px;
+        background-color: #048965a6;
+        border-radius: 50%;
+        margin: 0 3px;
+    }
+
+    .trade_with_us_cntnr .slick-dots li button {
+        border: 0;
+    }
+
+    .trade_with_us_cntnr .slick-dots .slick-active {
+        background-color: #000;
+    }
+
+    .get_in_touch_frm form input[type="submit"] {
+        padding: 13px 10px;
+        font-size: 13px;
+    }
+
+    /* .bnnr_shape svg{
+        width: 524px;
+        height: 200px;
+    } */
+    /* .bnnr_shape {
+        bottom:-63px;
+    } */
+    .as_seen_on {
+        padding-top: 16px;
+    }
+
+    .trading_icontxt p {
+        font-size: 10px;
+    }
+
+
+    /* contact-page */
+    /* 25-07-22 */
+    .contact-banner {
+        padding: 60px 0 120px;
+    }
+
+    .contact-banner p {
+        margin-bottom: 0;
+    }
+
+    .form-sec .form-wrap {
+        padding: 50px 30px 40px;
+    }
+
+    /* faq-page */
+    .faq-banner {
+        padding: 80px 0 100px;
+        margin-bottom: 25px;
+    }
+
+    .get_in_touch_faq {
+        padding: 140px 0 160px;
+    }
+
+    /* about page */
+    .about_caption p {
+        max-width: none;
+    }
+
+    .about_bnnr {
+        padding: 80px 0 95px 0;
+    }
+
+    .start_trading {
+        padding: 30px 0;
+    }
+
+    .trading_cntent p {
+        font-size: 26px;
+        line-height: 40px;
+        max-width: none;
+    }
+
+    .mssn_cntnt p {
+        max-width: none;
+    }
+
+    .mssn_para p {
+        max-width: none;
+    }
+
+    .mission_sec {
+        padding: 170px 0 140px;
+    }
+
+    .about_cntnt {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .about_cntnt p {
+        padding-bottom: 10px;
+    }
+
+    .about_para {
+        padding-top: 15px;
+    }
+
+    .ftr_description a {
+        font-size: 13px;
+    }
+
+    .ftr_content .ftr_li ul li {
+        margin: 13px 0;
+    }
+
+    .ftr_content .ftr_li ul li a {
+        font-size: 13px;
+    }
+
+    .Search-title {
+        font-size: 35px !important;
+        line-height: 40px !important;
+    }
+}
+
+@media (max-width:820px) {
+
+    /* .bnnr_shape {
+        bottom: -71px;
+    } */
+    .refundable_section::before {
+        top: 13px;
+    }
+
+    .refundable_section::after {
+        bottom: -16px;
+    }
+
+    .mission_sec {
+        padding: 185px 0 108px;
+    }
+
+    .mssn_shape {
+        top: -20px;
+        transform: rotate(-2deg);
+        width: 65%;
+    }
+
+    .mission_sec::after {
+        border-width: 50px 400px 53px 0;
+    }
+
+    .first_cntnt a {
+        margin-top: 25px;
+    }
+
+    .sec_contnt a {
+        margin-top: 25px;
+    }
+
+    .thrd_cntnt a {
+        margin-top: 25px;
+    }
+
+    .frth_cntnt a {
+        margin-top: 25px;
+    }
+
+    .fifth_cntnt a {
+        margin-top: 25px;
+    }
+
+    .bnnr_img {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+
+    .refundable_section::before {
+        top: 20px;
+        border-width: 57.5px 0 69.5px 284px !important;
+    }
+
+    .refundable_section::after {
+        bottom: -33px;
+        border-width: 88px 480px 83px 0 !important;
+    }
+
+    /* .bnnr_shape {
+        bottom:-53px;
+    } */
+    .mission_sec {
+        padding: 170px 0 92px;
+    }
+
+    .mssn_shape {
+        top: -10px;
+        width: 60%;
+        transform: rotate(-2deg);
+    }
+
+    .mission_sec::after {
+        border-width: 50px 285px 62px 0;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .acme-news-ticker {
+        margin-top: 15px;
+    }
+
+    .banner_caption h1 {
+        font-size: 50px;
+    }
+
+    .powered_cnt p img {
+        margin-left: 10px;
+    }
+
+    .trading_grp_li ul {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trading_grp_li ul li {
+        flex: 0 0 100%;
+        margin-top: 20px;
+    }
+
+    .trading_grp_li {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .funded_forex_hdng h2 {
+        font-size: 36px;
+    }
+
+    .funded_forex_content {
+        margin-top: 40px;
+    }
+
+    .funded_content h4 {
+        font-size: 16px;
+    }
+
+    .funded_forex_sec {
+        padding: 156px 0 190px;
+    }
+
+    .ftr_description::after {
+        display: none;
+    }
+
+    .trade_wit_us {
+        padding: 272px 0px 140px;
+        margin-top: -190px;
+    }
+
+    /* .trade_with_us_cntnt {
+        min-height: 420px;
+        padding: 4px;
+        margin-bottom: 30px;
+    } */
+    .trade_with_us_cntnr {
+        margin-top: 15px;
+    }
+
+    .trade_with_us_cntnt.down {
+        margin-top: 0;
+    }
+
+    .get_in_touch {
+        padding: 140px 0 150px;
+        margin-top: -130px;
+    }
+
+    .trading_grp_btn .solid_btn {
+        margin: 42px auto 0;
+        max-width: 212px;
+        font-size: 12px;
+    }
+
+    .get_link p {
+        font-size: 15px;
+    }
+
+    .ftr_logo {
+        text-align: center;
+    }
+
+    .ftr_description a {
+        margin: 15px auto;
+    }
+
+    .ftr_content {
+        margin-top: 15px;
+    }
+
+    .ftr_sec .col-md-3 {
+        margin-left: 0;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+
+    .ftr_sec .col-md-2.ftr_cntnt {
+        margin-left: 0;
+    }
+
+    .ftr_sec .col-md-2 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+
+    .ftr_sec .col-md-2 {
+        margin-left: 0;
+    }
+
+    .ftr_content {
+        margin-top: 30px;
+    }
+
+    .ftr_last_part .ftr_para {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ftr_last_part {
+        display: inherit;
+        margin-top: 40px;
+    }
+
+    .social_media_icon {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .ftr_last_part p:first-child {
+        border-right: 0;
+    }
+
+    .terms_link {
+        margin-top: 25px;
+    }
+
+    .ftr_sec {
+        padding: 100px 0 60px;
+    }
+
+    .refundable_cntnt h2 {
+        font-size: 34px;
+    }
+
+    .login_sec p {
+        font-size: 12px;
+    }
+
+    .trade_sec p {
+        font-size: 12px;
+    }
+
+    .icon a {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .login_link {
+        margin-left: 40%;
+    }
+
+    .trading_icontxt p {
+        font-size: 14px;
+    }
+
+
+    /* contact-page */
+    /* 25-07-22 */
+    .form-sec {
+        padding: 40px 0 160px;
+    }
+
+    .faq-banner h1 {
+        line-height: 60px;
+    }
+
+    .form-sec .form-title h6 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .form-sec .form-wrap {
+        padding: 40px 25px;
+        margin-top: 25px;
+    }
+
+    .form-sec .form-wrap .input-wrap input,
+    .form-sec .form-wrap .input-wrap textarea {
+        padding: 10px 15px;
+    }
+
+    /* faq-page */
+    .faq_sec .faq-title-wrap h4 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .faq_sec .faq-wrapper ul li {
+        padding: 30px 0;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .faq_sec .faq-wrapper ul li h6 {
+        font-size: 21px;
+        line-height: 29px;
+    }
+
+    .get_in_touch_faq {
+        margin-top: 0;
+    }
+
+    /* about page*/
+    .trading_cntent p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .mission_sec {
+        padding: 130px 0 82px;
+    }
+
+    .mssn_para h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .step_evaluation_contnr {
+        margin-top: 30px;
+    }
+    .Search-title {
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
+}
+
+@media (max-width:576px) {
+
+    .refundable_section::before {
+        top: 5px;
+        border-width: 57.5px 0 76.5px 284px !important;
+    }
+
+    .refundable_section::after {
+        bottom: -60px;
+        border-width: 105px 480px 84px 0 !important;
+    }
+
+    .mssn_para {
+        padding-top: 20px;
+    }
+
+    .mssn_shape {
+        top: 8px;
+        transform: rotate(-4deg);
+    }
+
+    .mission_sec::after {
+        border-width: 50px 285px 50px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .hdr_menu {
+        flex: 0 0 70%;
+    }
+
+    /* .login_link {
+        margin-left: 75%;
+    } */
+    .banner {
+        padding: 45px 0 50px 0;
+    }
+
+    /* .banner::after {
+        bottom: 18px;
+    } */
+    .banner_caption p {
+        margin-bottom: 20px;
+        max-width: none;
+    }
+
+    .banner_caption h1 {
+        font-size: 47px;
+        line-height: 61px;
+    }
+
+    /* .banner::after {
+        bottom: 15px;
+    } */
+    .trading_grp_hdng h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .trading_grp {
+        padding: 20px 0 15px;
+    }
+
+    .trade_wit_us .slick-arrow::after {
+        font-size: 35px;
+    }
+
+    .funded_forex_hdng h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .step_headng h2 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+
+    .refundable_section::before {
+        border-width: 57.5px 0 92.5px 280px !important;
+    }
+
+    .get_in_hdng h2 {
+        font-size: 42px;
+        line-height: 26px;
+    }
+
+    .get_link p {
+        font-size: 14px;
+    }
+
+    .trade_wit_us {
+        padding: 272px 0px 145px;
+    }
+
+    .get_in_touch {
+        padding: 175px 0 150px;
+    }
+
+    .terms_link li a {
+        font-size: 14px;
+    }
+
+    /* .bnnr_shape svg {
+        width: 390px;
+    } */
+    .login_link {
+        margin-left: 20%;
+    }
+
+    .as_seen_container .img_cntnr img {
+        margin: 0 15px;
+    }
+
+    .powered_cnt {
+        margin-top: 25px;
+    }
+
+    /* .bnnr_shape {
+        bottom:-76px;
+    } */
+    /* .as_seen_on {
+        padding-top: 60px;
+    } */
+    .funded_img {
+        width: 90px;
+        height: 90px;
+        min-width: 90px;
+    }
+
+    .funded_content h3 {
+        font-size: 22px;
+    }
+
+    .funded_content h4 {
+        font-size: 14px;
+    }
+
+    .about_get_touch {
+        padding: 130px 0 150px;
+
+    }
+
+    .about_caption h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .about_caption p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .start_trading {
+        padding: 15px 0;
+    }
+
+    .mssn_cntn h2 {
+        font-size: 25px;
+        line-height: 4px;
+    }
+
+    .mission_sec {
+        padding: 176px 0;
+    }
+
+    .mssn_cntnt p {
+        font-size: 15px;
+        line-height: 24px;
+        margin: 10px 0 0;
+    }
+
+    .mssn_para h2 {
+        font-size: 25px;
+        line-height: 0;
+        margin-top: 10px;
+    }
+
+    .mssn_para p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .mssn_shape {
+        top: 0px;
+        transform: rotate(-6deg);
+        left: -8px;
+        width: 70%;
+    }
+
+    .about_cntnt h2 {
+        font-size: 38px;
+        line-height: 45px;
+        padding-bottom: 10px;
+    }
+    .Search-titleÂ {
+        font-size: 28px !important;
+        line-height: 30px !important;
+    }
+    
+    
+}
+
+@media (max-width:481px) {
+
+    .refundable_section::before {
+        top: -4px;
+    }
+
+    .refundable_section::after {
+        bottom: -43px;
+        border-width: 105px 340px 84px 0 !important;
+    }
+
+    /* .bnnr_shape {
+        bottom: -20px;
+    } */
+    .mission_sec {
+        padding: 125px 0;
+    }
+
+    .mission_sec::after {
+        border-width: 50px 285px 37px 0;
+    }
+
+    .mssn_shape {
+        top: 3px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:480px) {
+    .get_in_touch_frm form p {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .get_in_touch_frm form input[type="submit"] {
+        margin-top: 15px;
+    }
+
+    .banner_caption h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .banner_caption p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .bnr_link .solid_btn {
+        max-width: 180px;
+    }
+
+    .powered_cnt {
+        margin-top: 30px;
+    }
+
+    .solid_btn {
+        font-size: 14px;
+    }
+
+    /* .bnnr_shape svg{
+        width: 345px;
+    height: 94px;
+    }
+    .bnnr_shape {
+        bottom: -24px;
+    } */
+    .powered_cnt p img {
+        width: 130px;
+    }
+
+    .acme-news-ticker {
+        margin-top: 5px;
+    }
+
+    .icon a {
+        font-size: 14px;
+    }
+
+    .trading_grp_hdng h2 {
+        font-size: 24px;
+        line-height: 40px;
+        margin: 20px auto 15px;
+    }
+
+    .trading_grp_cntnt p {
+        line-height: 28px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .trading_grp_btn .solid_btn {
+        margin: 34px auto 0;
+        max-width: 198px;
+        font-size: 11px;
+    }
+
+    .step_evaluation_contnr {
+        margin-top: 30px;
+    }
+
+    .refundable_cntnt h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .refundable_section .solid_btn {
+        max-width: 200px;
+        margin-top: 25px;
+    }
+
+    .refundable_section::before {
+        top: -7px;
+    }
+
+    .refundable_section::after {
+        bottom: -45px;
+    }
+
+    .trade_wid_us_hdng h2 {
+        font-size: 35px;
+    }
+
+    .trade_with_us_cntnt h3 {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .trade_with_us_cntnt {
+        min-height: 500px;
+    }
+
+    .trade_wit_us {
+        padding: 260px 0px 110px;
+    }
+
+    .get_in_hdng h2 {
+        font-size: 36px;
+        line-height: 20px;
+    }
+
+    .terms_link li a {
+        font-size: 11px;
+    }
+
+    .login_link {
+        margin-left: 9%;
+    }
+
+    .trade_with_us_cntnt.down {
+        min-height: 500px;
+    }
+
+    .funded_forex_sec {
+        background-size: cover;
+        background-position: 60%;
+    }
+
+    /* about page */
+    .mssn_shape {
+        top: 10px;
+        width: 64%;
+    }
+
+    .abt_play {
+        width: 70px;
+        height: 70px;
+        min-width: 70px;
+    }
+
+    .mission_sec::after {
+        border-width: 50px 272px 37px 0;
+    }
+}
+
+@media (max-width: 421px) {
+
+    /* .bnnr_shape svg {
+        width: 324px;
+    } */
+    .refundable_section::before {
+        border-width: 57.5px 0 92.5px 248px !important;
+    }
+
+    .refundable_section::after {
+        bottom: -43px;
+        border-width: 105px 300px 84px 0 !important;
+    }
+
+    .mssn_shape {
+        top: 13px;
+        transform: rotate(-6deg);
+    }
+
+    .mission_sec::after {
+        border-width: 50px 245px 37px 0;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .funded_forex_sec {
+        padding: 150px 0 180px;
+    }
+
+    .funded_forex_content {
+        flex-direction: column-reverse;
+    }
+
+    .funded_img {
+        width: 98px;
+        height: 98px;
+        position: relative;
+        margin-bottom: -19px;
+    }
+
+    .funded_forex_content .funded_img {
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .funded_content {
+        padding: 30px;
+    }
+
+    .funded_content h4 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .funded_forex_content {
+        margin-top: 20px;
+    }
+
+    .refundable_section::before {
+        border-width: 57.5px 0 92.5px 230px !important;
+    }
+
+    .refundable_section::after {
+        border-width: 90px 280px 84px 0 !important;
+    }
+
+    .trade_wit_us {
+        padding: 260px 0px 110px;
+    }
+
+    .trade_with_us_cntnr .slick-dots {
+        margin-top: 25px;
+        z-index: 2;
+    }
+
+    .refundable_cntnt h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .refundable_cntnt p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .get_link p {
+        font-size: 12px;
+    }
+
+    .get_link p:last-child {
+        margin-top: 5px;
+    }
+
+    .img_cntnr img {
+        width: 70px;
+    }
+
+    .custom_container {
+        padding: 0 8px;
+    }
+
+    .login_sec {
+        align-items: baseline;
+    }
+
+    .menu_trigger {
+        font-size: 20px;
+    }
+
+    .login_link {
+        margin-left: 6%;
+    }
+
+    .trade_with_us_cntnt h3 {
+        margin-top: 35px;
+    }
+
+    .get_in_touch_frm form {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .get_in_touch_frm form input[type="email"] {
+        width: 100%;
+    }
+
+    .get_in_touch_frm form input[type="submit"] {
+        margin-top: 15px;
+    }
+
+    .get_in_hdng h2 {
+        font-size: 27px;
+        line-height: 0px;
+    }
+
+    .banner_caption h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .banner_caption p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .bnr_link .solid_btn {
+        min-width: 170px;
+    }
+
+    .powered_cnt p img {
+        width: 100px;
+    }
+
+    .as_seen_on {
+        padding-top: 45px;
+        padding-bottom: 38px;
+
+    }
+
+    .trading_grp_hdng h4 {
+        font-size: 14px;
+    }
+
+    .trading_grp_hdng h2 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .step_headng h2 {
+        font-size: 26px;
+        line-height: 10px;
+    }
+
+    .trade_wid_us_hdng h2 {
+        font-size: 27px;
+    }
+
+    .funded_forex_sec {
+        background-size: cover;
+        background-position: 53%;
+    }
+
+    /* .bnnr_shape svg {
+        width: 300px;
+    } */
+    .trading_grp {
+        padding: 10px 0 15px;
+    }
+
+    .trading_grp_cntnt p {
+        line-height: 17px;
+        font-size: 10px;
+    }
+
+    .terms_link li a {
+        font-size: 10px;
+    }
+
+    .ftr_content .ftr_li ul li a {
+        font-size: 13px;
+    }
+
+    .ftr_content .ftr_hdng h2 {
+        font-size: 12px;
+    }
+
+    /* contact-page */
+    /* 25-07-22 */
+    .form-sec .form-title h6 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .form-sec .form-wrap {
+        padding: 25px 15px;
+        margin-top: 20px;
+    }
+
+    .form-sec .form-wrap .input-wrap label {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .form-sec .form-wrap .input-wrap input,
+    .form-sec .form-wrap .input-wrap textarea {
+        padding: 7px 10px;
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .form-sec .form-wrap .input-wrap textarea {
+        min-height: 120px;
+    }
+
+    .form-sec .form-wrap .form-btn-wrap input {
+        padding: 14px 35px;
+        font-size: 14px;
+    }
+
+    /* faq-page */
+    .faq_sec .faq-title-wrap h4 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .faq_sec .faq-title-wrap .faq-title-form-wrap .faq-title-form input[type="text"] {
+        padding: 12px 15px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .faq_sec .faq-title-wrap .faq-title-form-wrap .faq-title-form input[type="text"]::placeholder {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .faq_sec .faq-wrapper ul li {
+        padding: 25px 0;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .faq_sec .faq-wrapper ul li:last-child {
+        padding-bottom: 40px;
+    }
+
+    .faq_sec .faq-wrapper ul li h6 {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+
+    .get_in_touch {
+        padding: 165px 0 120px;
+    }
+
+    /* about page */
+    .about_cntnt h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .about_cntnt p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width:414px) {
+    .refundable_section::after {
+        border-width: 90px 270px 89px 0 !important;
+    }
+}
+
+@media (max-width:412px) {
+    .mssn_shape {
+        top: 14px;
+    }
+}
+
+@media (max-width:390px) {
+
+    /* .bnnr_shape svg {
+        width: 286px;
+    } */
+    .refundable_section::before {
+        border-width: 57.5px 0 92.5px 221px !important;
+    }
+
+    .refundable_section::after {
+        border-width: 96px 268px 84px 0 !important;
+    }
+
+    .mssn_shape {
+        top: 19px;
+        transform: rotate(-8deg);
+    }
+
+    .mission_sec::after {
+        border-width: 50px 245px 34px 0;
+    }
+}
+
+@media (max-width:360px) {
+    .refundable_section::before {
+        border-width: 57.5px 0 92.5px 210px !important;
+    }
+
+    .refundable_section::after {
+        border-width: 96px 280px 84px 0 !important;
+    }
+}
+
+@media (max-width:340px) {
+
+    /* .bnnr_shape svg {
+        width: 270px;
+    } */
+    .refundable_section::before {
+        border-width: 57.5px 0 92.5px 198px !important;
+    }
+
+    .refundable_section::after {
+        border-width: 96px 270px 84px 0 !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .login_sec p {
+        font-size: 0;
+    }
+
+    .trade_sec p {
+        font-size: 0;
+    }
+
+    .login_link {
+        margin-left: 70%;
+    }
+
+    .terms_link li {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .refundable_section::before {
+        border-width: 57.5px 0 92.5px 216px !important;
+    }
+
+    .refundable_section::after {
+        border-width: 96px 257px 84px 0 !important;
+    }
+
+    .mssn_shape {
+        top: 19px;
+    }
+
+    .mission_sec::after {
+        border-width: 50px 226px 35px 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .mssn_shape {
+        top: 28px;
+        transform: rotate(-12deg);
+    }
+
+    .mission_sec::after {
+        border-width: 50px 166px 49px 0;
+    }
+}
+
+@media (max-width: 340px) {
+    .mssn_shape {
+        top: 32px;
+    }
+}

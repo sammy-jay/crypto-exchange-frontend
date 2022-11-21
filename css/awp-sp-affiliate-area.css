@@ -1,0 +1,228 @@
+body {
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #2C3338;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.awp_sp_container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.awp_sp_notification {
+    border: 1px solid #eee;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.awp_sp_notification-note-connected{
+    border-left: 5px solid #f31111;
+}
+.awp_sp_notification-pending{
+    border-left: 5px solid #f3e10c;
+}
+.awp_sp_notification-verified{
+    border-left: 5px solid #26ed90;
+}
+
+.awp_sp_notification img {
+    height: 40px;
+}
+.awp_sp_notification .notification-bell-icon {
+    margin-right: 20px;
+}
+.awp_sp_notification .notification-account-icon {
+    margin-left: 20px;
+}
+
+.awp_sp_stripe-warning {
+    display: flex;
+    align-items: center;
+}
+
+.awp_sp_accounts-listing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 0px;
+    margin: 25px 0px;
+}
+
+.awp_sp_express-account {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.awp_sp_standard-account {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.awp_sp_accounts-listing .awp_sp_express-account h4, .awp_sp_accounts-listing .awp_sp_standard-account h4 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.awp_sp-account-grid-item {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 35px;
+    background: #f7fafc;
+    border: 1px solid #e3e8ee;
+    /*box-shadow: 0px 0px 15px rgba(170, 170, 170, 0.25);*/
+    /*border: none;*/
+}
+
+.awp_sp-account-grid-item button {
+    background-color: transparent;
+    border: 1px solid #c1c1c1;
+    border-radius: 30px;
+    font-family: inherit;
+    width: 398px;
+    padding: 13px 0;
+    color: #333;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.3s;
+}
+
+.awp_sp-account-grid-item button:hover {
+    background: #fff;
+    color: #098ae3;
+}
+
+.awp_sp-need-help a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #0984E3;
+    text-decoration: none;
+}
+
+/*.awp_sp-account-grid-item.selected, .awp_sp-account-grid-item.account-created {*/
+/*    box-shadow: 0px 0px 15px rgba(170, 170, 170, 0.25);*/
+/*    border: none;*/
+/*}*/
+
+.awp_sp_account span {
+    font-size: 16px;
+    line-height: 22px;
+    color: #2C3338;
+    font-weight: 700;
+}
+
+.awp_sp_account_details {
+    background: #f7fafc;
+    padding: 20px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.awp_sp_account_details_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+    margin-top: 20px;
+}
+
+.awp_sp_account_details h4 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.awp_sp_account_details_grid .awp_sp_account_details_grid-item {
+    border:1px solid #eee;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.awp_sp_account_details_grid-item .account_details-caption {
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1108px) {
+
+    .awp_sp-account-grid-item button {
+        width: 85%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .awp_sp_accounts-listing, .awp_sp_account_details_grid {
+        display: block;
+    }
+
+    .awp_sp_account_details_grid .awp_sp_account_details_grid-item {
+        margin-bottom: 35px;
+    }
+
+    .awp_sp-account-grid-item button {
+        width: 85%;
+    }
+
+
+}
+
+/* Hide header in games in hand held devices */
+.awesome-game header.site-header {
+    display: none;
+}
+
+body.awesome-game .site-content {
+    padding-top: 14px !important;
+}
+
+/* by EJaz */
+
+.awp_sp-selected{
+    box-shadow: 0px 0px 15px rgba(170, 170, 170, 0.25) !important;
+    border: none !important;
+}
+.awp_sp-selected button{
+    /*content: attr(data-whatever);*/
+    /*content: 'test';*/
+    /*        //url(../images/awp-verified-stripe-account.svg);*/
+    background: url(../images/awp-verified-stripe-account.svg) no-repeat 98% 50% !important;
+    /*right: 0px !important;*/
+    background-size: 30px !important;
+    /*box-shadow: 0px 0px 15px rgba(170, 170, 170, 0.25) !important;*/
+    /*border: none !important;*/
+}
+
+.stripe-login{
+    background: url(../images/login.svg) no-repeat 98% 50% !important;
+    background-size: 30px !important;
+    height: 45px;
+    max-width: 250px;
+    border: 1px solid #c1c1c1;
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 42px 10px 10px;
+}
+
+/**
+https://css-tricks.com/change-color-of-svg-on-hover/
+ */
+/*.icon {*/
+/*    display: inline-block;*/
+/*    width: 70px;*/
+/*    height: 70px;*/
+/*    background-size: cover;*/
+/*}*/
+/*.icon-bell:hover,*/
+/*.icon-bell:focus {*/
+/*    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);*/
+/*}*/
