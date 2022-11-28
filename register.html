@@ -1,137 +1,215 @@
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="csrf-token"
+      content="2R5F8EXVM7X989o7sdDk2WfTXmaAMAeAa6BtlQVZ"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="csrf-token" content="2R5F8EXVM7X989o7sdDk2WfTXmaAMAeAa6BtlQVZ">
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/img/icon/icon.png"
+    />
 
-    <link rel="shortcut icon" type="image/png" href="assets/img/icon/icon.png">
+    <title>Premium Forex Funds Register user</title>
 
-    <title>
-        Premium Forex Funds
-                Register user
-    </title>
-
-    <link rel="stylesheet" href="assets/css/cookie.css">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/css/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/css/remixicon.css" rel="stylesheet">
-    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/selectric.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/font-awsome.min.css">
-    <link rel="stylesheet" href="assets/css/iziToast.min.css">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/cookie.css" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/css/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/css/remixicon.css" rel="stylesheet" />
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/selectric.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/font-awsome.min.css" />
+    <link rel="stylesheet" href="assets/css/iziToast.min.css" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
     <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
-<script src='remixicon.eot?t=1590207869815#iefix' crossorigin='anonymous'></script>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<link rel="stylesheet"
-        href="assets/css/color.php">
-</head>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="remixicon.eot?t=1590207869815#iefix"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <link rel="stylesheet" href="assets/css/color.php" />
+  </head>
 
-<body class="text-capitalize">
-
-    
-
-                
-
-        <main id="main" class="main-img">
-
-            
-    <section class="auth-section auth-section-two">
+  <body class="text-capitalize">
+    <main id="main" class="main-img">
+      <section class="auth-section auth-section-two">
         <div class="auth-wrapper">
-            <div class="auth-top-part">
-                <a href="index.html" class="auth-logo">
-                    <img class="img-fluid rounded sm-device-img text-align"
-                     src="assets/img/log0.png" width="100%" alt="pp">
-                </a>
-                <p class="mb-0"><span class="me-2">Already registered?</span> <a class="cmn-btn btn-sm" 
-                    href="login.html">Login</a></p>
-            </div>
-            <div class="auth-body-part">
-                <div class="auth-form-wrapper">
-                    <h3 class="text-center mb-4">Create an account</h3>
-                    <form action="#" method="POST">
-                        <input type="hidden" name="_token" value="2R5F8EXVM7X989o7sdDk2WfTXmaAMAeAa6BtlQVZ">                       
-                         <div class="row gy-4">
-                            <div class="col-lg-12">
-                                                            </div>
-                            <div class="col-md-6">
-                                <label for="formGroupExampleInput">First name</label>
-                                <input type="text" class="form-control" name="firstName" value="" id="first_name" placeholder="First name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="formGroupExampleInput">Last name</label>
-                                <input type="text" class="form-control" name="lastName" value="" id="last_name" placeholder="Last name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="username">Username</label>
-                                <input type="text" class="form-control" name="username" value="" id="username" placeholder="User name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="formGroupExampleInput">Phone</label>
-                                <input type="text" class="form-control" name="phoneNumber" value="" id="phone" placeholder="Phone">
-                            </div>
+          <div class="auth-top-part">
+            <a href="index.html" class="auth-logo">
+              <img
+                class="img-fluid rounded sm-device-img text-align"
+                src="assets/img/log0.png"
+                width="100%"
+                alt="pp"
+              />
+            </a>
+            <p class="mb-0">
+              <span class="me-2">Already registered?</span>
+              <a class="cmn-btn btn-sm" href="login.html">Login</a>
+            </p>
+          </div>
+          <div class="auth-body-part">
+            <div class="auth-form-wrapper">
+              <h3 class="text-center mb-4">Create an account</h3>
+              <form>
+                <input
+                  type="hidden"
+                  name="_token"
+                  value="2R5F8EXVM7X989o7sdDk2WfTXmaAMAeAa6BtlQVZ"
+                />
+                <div class="row gy-4">
+                  <div class="col-lg-12"></div>
+                  <div class="col-md-6">
+                    <label for="formGroupExampleInput">First name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="firstName"
+                      value=""
+                      id="first_name"
+                      placeholder="First name"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="formGroupExampleInput">Last name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="lastName"
+                      value=""
+                      id="last_name"
+                      placeholder="Last name"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="username">Username</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="username"
+                      value=""
+                      id="username"
+                      placeholder="User name"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="formGroupExampleInput">Phone</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="phoneNumber"
+                      value=""
+                      id="phone"
+                      placeholder="Phone"
+                    />
+                  </div>
 
-                            <div class="col-md-12">
-                                <label for="formGroupExampleInput">Email</label>
-                                <input type="Email" class="form-control" name="email" value="" id="email" placeholder="Email">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="formGroupExampleInput">Pasword</label>
-                                <input type="password" class="form-control" name="password" id="password" placeholder="Password">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="formGroupExampleInput"> Confirm pasword</label>
-                                <input type="password" class="form-control" name="password_confirmation" id="password_confirmation" placeholder="Confirm password">
-                            </div>
-                            <div class="col-md-6">
-                                                            </div>
-                            <div class="col-lg-12">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" name="check" id="exampleCheck1" required>
-                                    <label class="form-check-label" for="exampleCheck1">I agree to the 
-                                        <a href="#"  class="color-change">Privacy policy</a></label>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <button class="cmn-btn w-100" id="submit-btn" type="submit"> Register </button>
-                            </div>
-                        </div>
-                    </form>
+                  <div class="col-md-12">
+                    <label for="formGroupExampleInput">Email</label>
+                    <input
+                      type="Email"
+                      class="form-control"
+                      name="email"
+                      value=""
+                      id="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="formGroupExampleInput">Pasword</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      name="password"
+                      id="password"
+                      placeholder="Password"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="formGroupExampleInput"> Confirm pasword</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      name="password_confirmation"
+                      id="password_confirmation"
+                      placeholder="Confirm password"
+                    />
+                  </div>
+                  <div class="col-md-6"></div>
+                  <div class="col-lg-12">
+                    <div class="form-check">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        name="check"
+                        id="exampleCheck1"
+                        required
+                      />
+                      <label class="form-check-label" for="exampleCheck1"
+                        >I agree to the
+                        <a href="#" class="color-change"
+                          >Privacy policy</a
+                        ></label
+                      >
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <button class="cmn-btn w-100" id="submit-btn" type="submit">
+                      Register
+                    </button>
+                  </div>
                 </div>
+              </form>
             </div>
-            <div class="auth-footer-part">
-                <p class="text-center mb-0">
-                                            Copyright © Premium Forex Funds. all rights reserved.
-                                    </p>
-            </div>
+          </div>
+          <div class="auth-footer-part">
+            <p class="text-center mb-0">
+              Copyright © Premium Forex Funds. all rights reserved.
+            </p>
+          </div>
         </div>
         <div class="auth-thumb-area">
-            <div class="auth-thumb">
-                <img src="assets/img/frontend_login_image.png" alt="image">
-            </div>
+          <div class="auth-thumb">
+            <img src="assets/img/frontend_login_image.png" alt="image" />
+          </div>
         </div>
-    </section>
-
+      </section>
     </main>
 
-   
-
-    <button type="button" class="btn btn-warning  btn-floating btn-lg" id="btn-back-to-top">
-        <i class="fas fa-arrow-up text-light"></i>
+    <button
+      type="button"
+      class="btn btn-warning btn-floating btn-lg"
+      id="btn-back-to-top"
+    >
+      <i class="fas fa-arrow-up text-light"></i>
     </button>
 
     <script src="assets/js/jquery.min.js"></script>
@@ -144,115 +222,96 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/iziToast.min.js"></script>
     <script src="assets/js/jquery.uploadPreview.min.js"></script>
-        <script>
-        "use strict";
+    <script>
+      "use strict";
 
-
-        function submitUserForm() {
-            var response = grecaptcha.getResponse();
-            if (response.length == 0) {
-                document.getElementById('g-recaptcha-error').innerHTML =
-                    "<span class='text-danger'>{{__('Captcha field is required.')</span>";
-                return false;
-            }
-            return true;
+      function submitUserForm() {
+        var response = grecaptcha.getResponse();
+        if (response.length == 0) {
+          document.getElementById("g-recaptcha-error").innerHTML =
+            "<span class='text-danger'>{{__('Captcha field is required.')</span>";
+          return false;
         }
+        return true;
+      }
 
-        function verifyCaptcha() {
-            document.getElementById('g-recaptcha-error').innerHTML = '';
-        }
+      function verifyCaptcha() {
+        document.getElementById("g-recaptcha-error").innerHTML = "";
+      }
     </script>
-    
-
-
-    
-    
-    
-    
 
     <script>
-        'use strict';
-        
+      "use strict";
 
+      $(document).ready(function () {
+        $("#trial_subscribe").on("click", function (e) {
+          e.preventDefault();
+          var email = $("#trial_email").val();
 
-        $(document).ready(function() {
-            $('#trial_subscribe').on('click', function(e) {
+          $.ajaxSetup({
+            headers: {
+              "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+            },
+          });
 
-                e.preventDefault();
-                var email = $('#trial_email').val();
+          $.ajax({
+            method: "POST",
+            url: "#",
+            data: {
+              email: email,
+            },
+            success: function (response) {
+              if (response.fails) {
+                notify("error", response.errorMsg.email);
+              }
 
-                $.ajaxSetup({
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                    }
-                });
-
-                $.ajax({
-                    method: 'POST',
-                    url: "#",
-                    data: {
-                        email: email
-                    },
-                    success: function(response) {
-
-                        if (response.fails) {
-                            notify('error', response.errorMsg.email)
-
-                        }
-
-                        if (response.success) {
-                            $('#email').val('');
-                            notify('success', response.successMsg)
-
-                        }
-                    }
-                });
-            })
-
-
+              if (response.success) {
+                $("#email").val("");
+                notify("success", response.successMsg);
+              }
+            },
+          });
         });
+      });
     </script>
-
 
     <script>
-        'use strict'
-        var url = "#";
+      "use strict";
+      var url = "#";
 
-        $(".changeLang").change(function() {
-            if ($(this).val() == '') {
-                return false;
-            }
-            window.location.href = url + "?lang=" + $(this).val();
-        });
-        //Get the button
-        let mybutton = document.getElementById("btn-back-to-top");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {
-            scrollFunction();
-        };
-
-        function scrollFunction() {
-            if (
-                document.body.scrollTop > 20 ||
-                document.documentElement.scrollTop > 20
-            ) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
+      $(".changeLang").change(function () {
+        if ($(this).val() == "") {
+          return false;
         }
-        // When the user clicks on the button, scroll to the top of the document
-        mybutton.addEventListener("click", backToTop);
+        window.location.href = url + "?lang=" + $(this).val();
+      });
+      //Get the button
+      let mybutton = document.getElementById("btn-back-to-top");
 
-        function backToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
         }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      mybutton.addEventListener("click", backToTop);
+
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
 
-<script src="assets/js/api/register.js"></script>
-</body>
-
-
+    <script src="assets/js/api/register.js"></script>
+  </body>
 </html>
